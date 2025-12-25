@@ -1,0 +1,53 @@
+[en]
+ROUND_STANDARD = ROUND %d
+ROUND_LAST_FIRST_HALF = ROUND %d^nLAST ROUND OF FIRST HALF
+ROUND_MATCHPOINT = ROUND %d^nMATCH POINT
+ROUND_FINAL = FINAL ROUND
+ROUND_ZERO = ROUND ZERO^nWinner will get to choose starting team
+ROUND_OVERTIME = OVERTIME
+STATE_WARMUP = WARM-UP
+STATE_WARMUP_ENDED = Game Starting!^nGood Luck and Have Fun!
+STATE_WARMUP_READY_PLAYERS = Ready Players:
+STATE_WARMUP_PERCENT = %i%% of players must be ready for warm-up end
+VOTE_TITLE_SELECT_TEAM = Winner Team - Select Team
+VOTE_TEAM_T = Terrorists
+VOTE_TEAM_CT = Counter-Terrorists
+VOTE_TEAM_DONT_CARE = Don't care
+KNIVESONLY_CANNOT_BUY = Can't buy in knife-only round!
+REACH_OVERTIME = Neither team managed to win the match. Entering Overtime. 
+
+[es]
+ROUND_STANDARD = RONDA %d
+ROUND_LAST_FIRST_HALF = RONDA %d^nÚLTIMA RONDA DE LA PRIMERA MITAD
+ROUND_MATCHPOINT = RONDA %d^nPUNTO DE PARTIDA
+ROUND_FINAL = RONDA FINAL
+ROUND_ZERO = RONDA CERO^nEl ganador podrá elegir el equipo inicial
+ROUND_OVERTIME = TIEMPO EXTRA
+STATE_WARMUP = CALENTAMIENTO
+STATE_WARMUP_ENDED = ¡El juego comienza!^n¡Buena suerte y diviértete!
+STATE_WARMUP_READY_PLAYERS = Jugadores Listos:
+STATE_WARMUP_PERCENT = %i%% de los jugadores deben estar listos para terminar el calentamiento
+VOTE_TITLE_SELECT_TEAM = Equipo ganador - Seleccionar equipo
+VOTE_TEAM_T = Terroristas
+VOTE_TEAM_CT = Antiterroristas
+VOTE_TEAM_DONT_CARE = No importa
+KNIVESONLY_CANNOT_BUY = ¡No se puede comprar en una ronda solo de cuchillos!
+REACH_OVERTIME = Ningún equipo logró ganar el juego. Entrando en tiempo extra.
+
+[bp]
+ROUND_STANDARD = RODADA %d
+ROUND_LAST_FIRST_HALF = RODADA %d^nÚLTIMA RODADA DO PRIMEIRO TEMPO
+ROUND_MATCHPOINT = RODADA %d^nPONTO DA PARTIDA
+ROUND_FINAL = RODADA FINAL
+ROUND_ZERO = RODADA ZERO^nO vencedor poderá escolher a equipe inicial
+ROUND_OVERTIME = PRORROGAÇÃO
+STATE_WARMUP = AQUECIMENTO
+STATE_WARMUP_ENDED = O jogo vai começar!^nBoa sorte e divirtam-se!
+STATE_WARMUP_READY_PLAYERS = Jogadores Prontos:
+STATE_WARMUP_PERCENT = %i%% dos jogadores devem estar prontos para encerrar o aquecimento
+VOTE_TITLE_SELECT_TEAM = Equipe vencedora - Selecionar equipe
+VOTE_TEAM_T = Terroristas
+VOTE_TEAM_CT = Contraterroristas
+VOTE_TEAM_DONT_CARE = Tanto faz
+KNIVESONLY_CANNOT_BUY = Não é possível comprar em uma rodada apenas de facas!
+REACH_OVERTIME = Nenhuma equipe conseguiu vencer a partida. Entrando na prorrogação.
