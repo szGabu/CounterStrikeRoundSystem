@@ -1333,7 +1333,7 @@ ResetGame(bool:bSoft = false)
     
     #if !defined _reapi_included
     set_gamerules_float("CHalfLifeMultiplay", "m_fTeamCount", get_gametime() + g_fTimeToRestart);
-    set_gamerules_int("CHalfLifeMultiplay", "m_bFreezePeriod", 0);
+    set_gamerules_int("CGameRules", "m_bFreezePeriod", 0);
     set_gamerules_int("CHalfLifeMultiplay", "m_bCompleteReset", 1);
     #else
     set_member_game(m_flRestartRoundTime, get_gametime() + g_fTimeToRestart);
@@ -1377,7 +1377,7 @@ public CheckPlayerStatus()
     
             #if !defined _reapi_included
             set_gamerules_float("CHalfLifeMultiplay", "m_fTeamCount", get_gametime() + 5);
-            set_gamerules_int("CHalfLifeMultiplay", "m_bFreezePeriod", 0);
+            set_gamerules_int("CGameRules", "m_bFreezePeriod", 0);
             set_gamerules_int("CHalfLifeMultiplay", "m_bCompleteReset", 1);
             set_gamerules_int("CHalfLifeMultiplay", "m_bFirstConnected", 1);
             #else
