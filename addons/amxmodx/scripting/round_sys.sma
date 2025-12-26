@@ -217,7 +217,7 @@ public OnConfigsExecuted()
 
     if(g_bPluginEnabled)
     {
-        #if !defined _reapi_includeds
+        #if !defined _reapi_included
         set_gamerules_float("CHalfLifeMultiplay", "m_fTeamCount", get_gametime());
         #else
         set_member_game(m_flRestartRoundTime, get_gametime()); // ditto
